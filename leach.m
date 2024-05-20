@@ -1,3 +1,16 @@
+%%%
+The code generates the following graphs:
+
+Network Lifetime (Figure 1): This plot shows the number of alive nodes per round over the simulation.
+Average Node Energy (Figure 3): This plot depicts the average energy (normalized) of nodes across rounds.
+Packet Delivery Ratio (PDR) (Figure 4): This plot represents the percentage of packets successfully delivered to the base station per round.
+Energy Consumption (Figure 5): This plot shows the total energy consumed by the network (normalized) per round.
+Cluster Head Distribution (Figure 6): This plot displays the number of cluster heads per round.
+Throughput (Packets Delivered) (Figure 7): This plot visualizes the total number of packets delivered to the base station per round.
+Dead Nodes vs Rounds (Figure 8): (Added after modification) This plot shows the number of dead nodes per round.
+Packets Transmitted to BS vs Rounds (Figure 9): (Added after modification) This plot depicts the number of packets transmitted to the base station per round (excluding the last element).
+Remaining Energy of Nodes (Figure 10): (Added after modification) This plot represents a bar graph with the x-axis showing node indices and the y-axis showing the remaining energy of each node.
+%%%
 % LEACH Protocol 
 % Clearing workspace and command window
 clear;
